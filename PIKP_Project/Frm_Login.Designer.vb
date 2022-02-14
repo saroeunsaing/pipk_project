@@ -32,6 +32,7 @@ Partial Class Frm_Login
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.IconButton1 = New FontAwesome.Sharp.IconButton()
         Me.IconButton2 = New FontAwesome.Sharp.IconButton()
+        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.Logo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -157,12 +158,22 @@ Partial Class Frm_Login
         Me.IconButton2.TabIndex = 10
         Me.IconButton2.UseVisualStyleBackColor = True
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(137, 252)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(83, 27)
+        Me.Label1.TabIndex = 11
+        Me.Label1.Text = "User Login"
+        '
         'Frm_Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 27.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.MistyRose
         Me.ClientSize = New System.Drawing.Size(400, 550)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.IconButton2)
         Me.Controls.Add(Me.IconButton1)
         Me.Controls.Add(Me.Panel2)
@@ -194,4 +205,5 @@ Partial Class Frm_Login
     Friend WithEvents Panel2 As Panel
     Friend WithEvents IconButton1 As FontAwesome.Sharp.IconButton
     Friend WithEvents IconButton2 As FontAwesome.Sharp.IconButton
+    Friend WithEvents Label1 As Label
 End Class
