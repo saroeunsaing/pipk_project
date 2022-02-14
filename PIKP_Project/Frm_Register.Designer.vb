@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Frm_Dashboard
+Partial Class Frm_Register
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -24,13 +24,13 @@ Partial Class Frm_Dashboard
     Private Sub InitializeComponent()
         Me.SuspendLayout()
         '
-        'Frm_Dashboard
+        'Frm_Register
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(591, 228)
-        Me.Name = "Frm_Dashboard"
-        Me.Text = "Frm_Dashboard"
+        Me.ClientSize = New System.Drawing.Size(128, 3)
+        Me.Name = "Frm_Register"
+        Me.Text = "Frm_Register"
         Me.ResumeLayout(False)
 
     End Sub
